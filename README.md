@@ -25,6 +25,7 @@ Vocabuary will be used as a feature. Example(in indonesian language):
 - Ini adalah pulpen
 - Saya beli pensin ini    
 - Saya beli pulpen itu
+- 
 Tokens:
 - Ini 
 - adalah
