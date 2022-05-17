@@ -11,7 +11,18 @@ NLP drives computer programs that translate text from one language to another, r
 #### Normalization
 change all letters to uppercase or lowercase.
 #### Tokenization
-tokenization will break the entire text into words, or sentences
+tokenization will break the entire text into words, or sentences.
+#### Punctuation Removal
+punctuation eraser
+#### Alphanumeric Cleansing
+just make sure that the variable consists of letters and numbers.
+#### Stopwords Removal
+are words that often / always appear in conversational language, stopwords is not absolute and depends on what the domain is talking about.
+### Why Preprocessing
+Vocabuary will be used as a feature. Example(in indonesian language):
+
+- Ini adalah pensin       - Ini adalah pulpen
+- Saya beli pensin ini    - Saya beli pulpen itu
 
 # Import Package
 
