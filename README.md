@@ -42,6 +42,9 @@ Then the token/vovabuary will be compiled into a table.
 The left side is as a line (document). And the right part is the feature(vocab) taken from the token.
 If there is the word "Hello" with "hello" is a different token even though the meaning is the same, unless it is normalized.
 
+### What to do after vocab/token becomes a feature?
+
+
 # Import Package
 
 import common packages:
