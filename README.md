@@ -25,7 +25,7 @@ Vocabuary will be used as a feature. Example(in indonesian language):
 - Ini adalah pulpen
 - Saya beli pensin ini    
 - Saya beli pulpen itu
-- 
+ 
 Tokens:
 - Ini 
 - adalah
@@ -35,7 +35,12 @@ Tokens:
 - beli
 - itu
 This means that only with these tokens we can make the text sentence above.
-Then the token/vovabuary will be compiled into a table
+Then the token/vovabuary will be compiled into a table.
+
+![image](https://user-images.githubusercontent.com/86812576/168838238-fb84353c-5747-4821-9e41-4a83ded2920a.png)
+
+The left side is as a line (document). And the right part is the feature(vocab) taken from the token.
+If there is the word "Hello" with "hello" is a different token even though the meaning is the same, unless it is normalized.
 
 # Import Package
 
