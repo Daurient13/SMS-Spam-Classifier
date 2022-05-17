@@ -21,8 +21,10 @@ are words that often / always appear in conversational language, stopwords is no
 ### Why Preprocessing
 Vocabuary will be used as a feature. Example(in indonesian language):
 
-- Ini adalah pensin       - Ini adalah pulpen
-- Saya beli pensin ini    - Saya beli pulpen itu
+- Ini adalah pensin       -
+- Ini adalah pulpen
+- Saya beli pensin ini    
+- Saya beli pulpen itu
 
 # Import Package
 
