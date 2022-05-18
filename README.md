@@ -43,7 +43,18 @@ The left side is as a line (document). And the right part is the feature(vocab) 
 If there is the word "Hello" with "hello" is a different token even though the meaning is the same, unless it is normalized.
 
 ### What to do after vocab/token becomes a feature?
+### Encode
+### 1. Bag of Words (BoW)
+![image](https://user-images.githubusercontent.com/86812576/169047358-53300fd6-42a0-4966-a565-fef1478fddd6.png)
 
+The task of Bag of Words is to make the text into a vector by counting the tokens.
+When the vocab/token has been counted with the encoder, all you have to do is look for the pattern with machine learning.
+
+### Inverse Document Frequency
+![image](https://user-images.githubusercontent.com/86812576/169047814-4f881a18-73c3-4232-b932-f155558d7df4.png)
+
+The idea is to invert the DF value. Why?
+For example, there is a token that appears in a particular document, meaning that it is a keyword for that document. Example, the word "itu" (the example above) has a value of 1/4 and only appears in certain documents and not in other documents, it is specific in certain documents so that it is weighted more strongly (From 1/4 to 4 because it is reversed). Another example is that the word “ini” appears in many documents, because it often appears in many documents, means that the word “ini” is not an important word because it does not distinguish between documents. Actually IDF is scaling for documents.
 
 # Import Package
 
