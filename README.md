@@ -54,7 +54,13 @@ When the vocab/token has been counted with the encoder, all you have to do is lo
 ![image](https://user-images.githubusercontent.com/86812576/169047814-4f881a18-73c3-4232-b932-f155558d7df4.png)
 
 The idea is to invert the DF value. Why?
-For example, there is a token that appears in a particular document, meaning that it is a keyword for that document. Example, the word "itu" (the example above) has a value of 1/4 and only appears in certain documents and not in other documents, it is specific in certain documents so that it is weighted more strongly (From 1/4 to 4 because it is reversed). Another example is that the word “ini” appears in many documents, because it often appears in many documents, means that the word “ini” is not an important word because it does not distinguish between documents. Actually IDF is scaling for documents.
+
+For example, there is a token that appears in a particular document, meaning that it's a keyword for that document. Example, the word "itu" (the example above) has a value of 1/4 and only appears in certain documents and not in other documents, it is specific in certain documents so that it is weighted more strongly (From 1/4 to 4 because it is reversed). Another example is that the word “ini” appears in many documents, because it often appears in many documents, means that the word “ini” is not an important word because it does not distinguish between documents. Actually IDF is scaling for documents.
+
+### 2. Term Frequency - Inverse Document Frequency (TFIDF)
+TFIDF is BoW which is scaled using IDF, which words are important and which words often appear are not important. For example _Stopwords_ that almost appear in the entire document. Usually words that often appear in other documents will be weakened, because the goal is to have a more meaningful encoding. Meanwhile, specific words rarely appear to be strengthened, so that the TFIDF will be decimalized.
+That's why there are 2 options, whether to remove stopwords, or use both.
+Because the function of TFIDF is also to weaken _Stopwords_. This will be done in text preprocessing before entering the machine.
 
 # Import Package
 
