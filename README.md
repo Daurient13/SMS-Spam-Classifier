@@ -147,6 +147,3 @@ The result is our model can predict correctly the second sms. I will try to ente
 ![Screenshot 2022-05-12 175956](https://user-images.githubusercontent.com/86812576/168056047-849086c8-9c0f-4508-b52f-e9070a3475b3.png)
 
 And it turns out our model is really good. because it managed to predict 3 sms tested whether spam or not.
-
-### lbfgs
-
